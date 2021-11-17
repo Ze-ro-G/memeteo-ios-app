@@ -1,19 +1,19 @@
 PODS:
-  - Alamofire (4.9.1)
+  - Alamofire (4.8.2)
   - AlamofireObjectMapper (5.2.1):
     - Alamofire (~> 4.7)
     - ObjectMapper (~> 3.4)
   - MemeteoClient (0.1.0):
-    - Alamofire
-    - AlamofireObjectMapper
-    - ObjectMapper
-    - SwiftyJSON
-  - ObjectMapper (3.5.3)
+    - Alamofire (= 4.8.2)
+    - AlamofireObjectMapper (= 5.2.1)
+    - ObjectMapper (= 3.4.2)
+    - SwiftyJSON (~> 4.1.0)
+  - ObjectMapper (3.4.2)
   - ReachabilitySwift (5.0.0)
-  - SwiftyJSON (5.0.1)
+  - SwiftyJSON (4.1.0)
 
 DEPENDENCIES:
-  - MemeteoClient (from `../memeteo-ios-client/`)
+  - MemeteoClient (from `https://github.com/Ze-ro-G/memeteo-ios-client.git`)
   - ReachabilitySwift
 
 SPEC REPOS:
@@ -26,16 +26,21 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   MemeteoClient:
-    :path: "../memeteo-ios-client/"
+    :git: https://github.com/Ze-ro-G/memeteo-ios-client.git
+
+CHECKOUT OPTIONS:
+  MemeteoClient:
+    :commit: 0f5b1576f1266ddc5c2e628dde0b9f50234b60cc
+    :git: https://github.com/Ze-ro-G/memeteo-ios-client.git
 
 SPEC CHECKSUMS:
-  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
-  MemeteoClient: 58971b42135c0cc84da0fc00078a03efb0c74051
-  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  MemeteoClient: e45771e28649530593ec686c24b930ed6b809382
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
   ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
-  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
 
-PODFILE CHECKSUM: 5c4020acfb8b89b9d40fe2c548431e11bbf01f90
+PODFILE CHECKSUM: 9181dc153ddfe89a46d6a60ff8da52cde3402400
 
 COCOAPODS: 1.11.2
