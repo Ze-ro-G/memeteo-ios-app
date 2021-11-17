@@ -8,10 +8,10 @@ target 'Memeteo' do
   # Pods for Memeteo
   pod 'ReachabilitySwift'
 
- # pod 'MemeteoClient', :git => 'https://github.com/Ze-ro-G/memeteo-ios-client.git'
+  pod 'MemeteoClient', :git => 'https://github.com/Ze-ro-G/memeteo-ios-client.git'
 
   
   #for development
-    pod 'MemeteoClient', :path => '../memeteo-ios-client/'
+#pod 'MemeteoClient', :path => '../memeteo-ios-client/'
   
 end
