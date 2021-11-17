@@ -60,10 +60,10 @@ extension MMViewControllerNotes : UITableViewDelegate, UITableViewDataSource{
         if let cell = tableView.dequeueReusableCell(withIdentifier: MMTableViewCellNote.identifier, for: indexPath) as? MMTableViewCellNote {
             let note : Note = notes[indexPath.item]
             
-          //  cell.labelName.text = city.name
-            cell.labelText.text = note.text
-            cell.labelTitle.text = note.city.name
+            cell.configure(note: note)
             
+          //  cell.labelName.text = city.name
+
             return cell
         }
         
