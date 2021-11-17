@@ -187,11 +187,24 @@ class MMTableViewControllerWeatherToday: UITableViewController {
              print("City Name: \(String(describing: firstTextField.text))")
             guard let cityname = firstTextField.text else { return }
              
-             self.currentCity = City(city: cityname)
+             let city =  City(city: cityname)
              
-             MemeteoClient.shared.saveCurrent(city: self.currentCity!)
+             // need to find another way to detect city weather
+             MemeteoClient.shared.weatherService?.fetchWeather(city: city.name, completion: { weather, error in
+    
+                 if weather != nil {
+                    // city wester existe
+                     self.currentCity = city
+                     
+                     MemeteoClient.shared.saveCurrent(city: self.currentCity!)
 
-             self.loadDataUsingCurrentCity()
+                     self.loadDataUsingCurrentCity()
+                 }
+                 else {
+                     // city wester do no exist
+                     self.addCity()
+                 }
+             })
          })
 
 
@@ -261,11 +274,17 @@ class MMTableViewControllerWeatherToday: UITableViewController {
                 if let weather = weather {
                     self.setWeather(weather: weather)
                 }
+                else{
+                    self.displayAlert(title: "Error", message: error?.localizedDescription ?? "Cant load weather for \(cCity.name)")
+                }
             })
             
             MemeteoClient.shared.weatherService?.fetchLocationForecast(city: cCity.name, completion: { forecastWeather, error in
                 if let forecast = forecastWeather{
                     self.setForecast(forecast: forecast)
+                }
+                else{
+                    self.displayAlert(title: "Error", message: error?.localizedDescription ?? "Cant load forecasts for \(cCity.name)")
                 }
             })
         }

@@ -85,7 +85,6 @@
 				045EF16F27458BCB004313DE /* Memeteo.entitlements */,
 				04E9226A27345C170034CAB7 /* Controllers */,
 				04E9226B27345C170034CAB7 /* Extensions */,
-				04E9226827345C170034CAB7 /* Modals */,
 				04E9226927345C170034CAB7 /* Views */,
 				04E9225427345BF00034CAB7 /* AppDelegate.swift */,
 				04E9225A27345BF00034CAB7 /* Main.storyboard */,
@@ -94,13 +93,6 @@
 				04E9226227345BF40034CAB7 /* Info.plist */,
 			);
 			path = Memeteo;
-			sourceTree = "<group>";
-		};
-		04E9226827345C170034CAB7 /* Modals */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Modals;
 			sourceTree = "<group>";
 		};
 		04E9226927345C170034CAB7 /* Views */ = {
