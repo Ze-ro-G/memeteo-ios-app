@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0474B0132743C5D800361B67 /* MMViewControllerNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474B0122743C5D800361B67 /* MMViewControllerNotes.swift */; };
+		0474B0182744175E00361B67 /* MMTableViewCellNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474B0172744175E00361B67 /* MMTableViewCellNote.swift */; };
+		04E05DC12735789300065D03 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E05DC02735789300065D03 /* Extensions.swift */; };
+		04E05DC32735858400065D03 /* MMTableViewCellWeatherHourly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E05DC22735858400065D03 /* MMTableViewCellWeatherHourly.swift */; };
+		04E05DC52735861300065D03 /* MMCollectionViewCellWeatherDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E05DC42735861300065D03 /* MMCollectionViewCellWeatherDay.swift */; };
+		04E05DC727358A6000065D03 /* MMTableViewControllerWeatherNextDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E05DC627358A6000065D03 /* MMTableViewControllerWeatherNextDays.swift */; };
+		04E05DC927358A9C00065D03 /* MMTableViewCellWeatherNextDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E05DC827358A9C00065D03 /* MMTableViewCellWeatherNextDay.swift */; };
+		04E9225527345BF00034CAB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9225427345BF00034CAB7 /* AppDelegate.swift */; };
+		04E9225C27345BF00034CAB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E9225A27345BF00034CAB7 /* Main.storyboard */; };
+		04E9225E27345BF40034CAB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E9225D27345BF40034CAB7 /* Assets.xcassets */; };
+		04E9226127345BF40034CAB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E9225F27345BF40034CAB7 /* LaunchScreen.storyboard */; };
+		04E9226D27345C4E0034CAB7 /* MMTableViewControllerEmbedWeatherToday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9226C27345C4E0034CAB7 /* MMTableViewControllerEmbedWeatherToday.swift */; };
+		04E9226F273571C70034CAB7 /* MMTableViewControllerWeatherToday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9226E273571C70034CAB7 /* MMTableViewControllerWeatherToday.swift */; };
+		04FF2519273AD4E200D755F7 /* MMTableViewControllerCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF2518273AD4E200D755F7 /* MMTableViewControllerCities.swift */; };
+		04FF251F273EC86900D755F7 /* MMTableViewCellCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF251E273EC86900D755F7 /* MMTableViewCellCity.swift */; };
+		BE09EC87E5038C31E026C2EB /* Pods_Memeteo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E162096B18E2308D8CFC38 /* Pods_Memeteo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0474B0122743C5D800361B67 /* MMViewControllerNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMViewControllerNotes.swift; sourceTree = "<group>"; };
+		0474B0172744175E00361B67 /* MMTableViewCellNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTableViewCellNote.swift; sourceTree = "<group>"; };
+		04E05DC02735789300065D03 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		04E05DC22735858400065D03 /* MMTableViewCellWeatherHourly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MMTableViewCellWeatherHourly.swift; path = " Cells/MMTableViewCellWeatherHourly.swift"; sourceTree = "<group>"; };
+		04E05DC42735861300065D03 /* MMCollectionViewCellWeatherDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMCollectionViewCellWeatherDay.swift; sourceTree = "<group>"; };
+		04E05DC627358A6000065D03 /* MMTableViewControllerWeatherNextDays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTableViewControllerWeatherNextDays.swift; sourceTree = "<group>"; };
+		04E05DC827358A9C00065D03 /* MMTableViewCellWeatherNextDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTableViewCellWeatherNextDay.swift; sourceTree = "<group>"; };
+		04E9225127345BF00034CAB7 /* Memeteo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memeteo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E9225427345BF00034CAB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04E9225B27345BF00034CAB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04E9225D27345BF40034CAB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E9226027345BF40034CAB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04E9226227345BF40034CAB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E9226C27345C4E0034CAB7 /* MMTableViewControllerEmbedWeatherToday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMTableViewControllerEmbedWeatherToday.swift; sourceTree = "<group>"; };
+		04E9226E273571C70034CAB7 /* MMTableViewControllerWeatherToday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTableViewControllerWeatherToday.swift; sourceTree = "<group>"; };
+		04FF2518273AD4E200D755F7 /* MMTableViewControllerCities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTableViewControllerCities.swift; sourceTree = "<group>"; };
+		04FF251E273EC86900D755F7 /* MMTableViewCellCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMTableViewCellCity.swift; sourceTree = "<group>"; };
+		44E162096B18E2308D8CFC38 /* Pods_Memeteo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Memeteo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ACCE752B24BDBDA828FCABC /* Pods-Memeteo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memeteo.debug.xcconfig"; path = "Target Support Files/Pods-Memeteo/Pods-Memeteo.debug.xcconfig"; sourceTree = "<group>"; };
+		6B4155959546DC4FF82E84AB /* Pods-Memeteo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memeteo.release.xcconfig"; path = "Target Support Files/Pods-Memeteo/Pods-Memeteo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E9224E27345BF00034CAB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE09EC87E5038C31E026C2EB /* Pods_Memeteo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E9224827345BF00034CAB7 = {
+			isa = PBXGroup;
+			children = (
+				04E9225327345BF00034CAB7 /* Memeteo */,
+				04E9225227345BF00034CAB7 /* Products */,
+				4FA38BC0CB2620BCE9D4FAA9 /* Pods */,
+				AA852DB8B10A1CAEF510B44F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04E9225227345BF00034CAB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E9225127345BF00034CAB7 /* Memeteo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E9225327345BF00034CAB7 /* Memeteo */ = {
+			isa = PBXGroup;
+			children = (
+				04E9226A27345C170034CAB7 /* Controllers */,
+				04E9226B27345C170034CAB7 /* Extensions */,
+				04E9226827345C170034CAB7 /* Modals */,
+				04E9226927345C170034CAB7 /* Views */,
+				04E9225427345BF00034CAB7 /* AppDelegate.swift */,
+				04E9225A27345BF00034CAB7 /* Main.storyboard */,
+				04E9225D27345BF40034CAB7 /* Assets.xcassets */,
+				04E9225F27345BF40034CAB7 /* LaunchScreen.storyboard */,
+				04E9226227345BF40034CAB7 /* Info.plist */,
+			);
+			path = Memeteo;
+			sourceTree = "<group>";
+		};
+		04E9226827345C170034CAB7 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		04E9226927345C170034CAB7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04E05DC22735858400065D03 /* MMTableViewCellWeatherHourly.swift */,
+				04E05DC42735861300065D03 /* MMCollectionViewCellWeatherDay.swift */,
+				04E05DC827358A9C00065D03 /* MMTableViewCellWeatherNextDay.swift */,
+				04FF251E273EC86900D755F7 /* MMTableViewCellCity.swift */,
+				0474B0172744175E00361B67 /* MMTableViewCellNote.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04E9226A27345C170034CAB7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04E9226C27345C4E0034CAB7 /* MMTableViewControllerEmbedWeatherToday.swift */,
+				04E9226E273571C70034CAB7 /* MMTableViewControllerWeatherToday.swift */,
+				04E05DC627358A6000065D03 /* MMTableViewControllerWeatherNextDays.swift */,
+				04FF2518273AD4E200D755F7 /* MMTableViewControllerCities.swift */,
+				0474B0122743C5D800361B67 /* MMViewControllerNotes.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		04E9226B27345C170034CAB7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04E05DC02735789300065D03 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4FA38BC0CB2620BCE9D4FAA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6ACCE752B24BDBDA828FCABC /* Pods-Memeteo.debug.xcconfig */,
+				6B4155959546DC4FF82E84AB /* Pods-Memeteo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA852DB8B10A1CAEF510B44F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44E162096B18E2308D8CFC38 /* Pods_Memeteo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E9225027345BF00034CAB7 /* Memeteo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E9226527345BF40034CAB7 /* Build configuration list for PBXNativeTarget "Memeteo" */;
+			buildPhases = (
+				566C69FBB321E6ED680B76DA /* [CP] Check Pods Manifest.lock */,
+				04E9224D27345BF00034CAB7 /* Sources */,
+				04E9224E27345BF00034CAB7 /* Frameworks */,
+				04E9224F27345BF00034CAB7 /* Resources */,
+				ED52325F7545CC595631740C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Memeteo;
+			productName = Memeteo;
+			productReference = 04E9225127345BF00034CAB7 /* Memeteo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E9224927345BF00034CAB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = MM;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					04E9225027345BF00034CAB7 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 04E9224C27345BF00034CAB7 /* Build configuration list for PBXProject "Memeteo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E9224827345BF00034CAB7;
+			productRefGroup = 04E9225227345BF00034CAB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E9225027345BF00034CAB7 /* Memeteo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E9224F27345BF00034CAB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E9226127345BF40034CAB7 /* LaunchScreen.storyboard in Resources */,
+				04E9225E27345BF40034CAB7 /* Assets.xcassets in Resources */,
+				04E9225C27345BF00034CAB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		566C69FBB321E6ED680B76DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Memeteo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED52325F7545CC595631740C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Memeteo/Pods-Memeteo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Memeteo/Pods-Memeteo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Memeteo/Pods-Memeteo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E9224D27345BF00034CAB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FF251F273EC86900D755F7 /* MMTableViewCellCity.swift in Sources */,
+				04E05DC927358A9C00065D03 /* MMTableViewCellWeatherNextDay.swift in Sources */,
+				04E05DC52735861300065D03 /* MMCollectionViewCellWeatherDay.swift in Sources */,
+				04E9226D27345C4E0034CAB7 /* MMTableViewControllerEmbedWeatherToday.swift in Sources */,
+				04FF2519273AD4E200D755F7 /* MMTableViewControllerCities.swift in Sources */,
+				0474B0132743C5D800361B67 /* MMViewControllerNotes.swift in Sources */,
+				04E05DC32735858400065D03 /* MMTableViewCellWeatherHourly.swift in Sources */,
+				04E9225527345BF00034CAB7 /* AppDelegate.swift in Sources */,
+				04E05DC727358A6000065D03 /* MMTableViewControllerWeatherNextDays.swift in Sources */,
+				04E9226F273571C70034CAB7 /* MMTableViewControllerWeatherToday.swift in Sources */,
+				04E05DC12735789300065D03 /* Extensions.swift in Sources */,
+				0474B0182744175E00361B67 /* MMTableViewCellNote.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04E9225A27345BF00034CAB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E9225B27345BF00034CAB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04E9225F27345BF40034CAB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E9226027345BF40034CAB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E9226327345BF40034CAB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04E9226427345BF40034CAB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E9226627345BF40034CAB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ACCE752B24BDBDA828FCABC /* Pods-Memeteo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SGXTW3RJA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Memeteo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zerog.Memeteo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04E9226727345BF40034CAB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B4155959546DC4FF82E84AB /* Pods-Memeteo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SGXTW3RJA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Memeteo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zerog.Memeteo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E9224C27345BF00034CAB7 /* Build configuration list for PBXProject "Memeteo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E9226327345BF40034CAB7 /* Debug */,
+				04E9226427345BF40034CAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E9226527345BF40034CAB7 /* Build configuration list for PBXNativeTarget "Memeteo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E9226627345BF40034CAB7 /* Debug */,
+				04E9226727345BF40034CAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E9224927345BF00034CAB7 /* Project object */;
+}

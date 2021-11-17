@@ -1,0 +1,41 @@
+PODS:
+  - Alamofire (5.0.0-rc.2)
+  - AlamofireObjectMapper (6.2.0):
+    - Alamofire (= 5.0.0-rc.2)
+    - ObjectMapper (~> 3.5.1)
+  - MemeteoClient (0.1.0):
+    - Alamofire
+    - AlamofireObjectMapper
+    - ObjectMapper
+    - SwiftyJSON
+  - ObjectMapper (3.5.3)
+  - ReachabilitySwift (5.0.0)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - MemeteoClient (from `../../memeteo-ios-client/MemeteoClient`)
+  - ReachabilitySwift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireObjectMapper
+    - ObjectMapper
+    - ReachabilitySwift
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  MemeteoClient:
+    :path: "../../memeteo-ios-client/MemeteoClient"
+
+SPEC CHECKSUMS:
+  Alamofire: f9450d3c7f6bea2ad62e7a541c3e9b186c7991d6
+  AlamofireObjectMapper: 74d1440c92c42bbcc2b5f4dc81654ac095ec669f
+  MemeteoClient: 58971b42135c0cc84da0fc00078a03efb0c74051
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: c8d47e29366793d108a05c6251b86b2ef69b7537
+
+COCOAPODS: 1.11.1
