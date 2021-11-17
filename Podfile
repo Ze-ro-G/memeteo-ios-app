@@ -12,6 +12,6 @@ target 'Memeteo' do
 
   
   #for development
-  #  pod 'MemeteoClient',
+  #  pod 'MemeteoClient', :path => '../memeteo-ios-client
   
 end
