@@ -66,7 +66,7 @@
                                     <constraint firstAttribute="height" constant="37" id="TgX-in-fet"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="27"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FKC-2O-Hh7">
@@ -396,7 +396,9 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="note.text" catalog="system" title=""/>
                                 <connections>
-                                    <segue destination="Sj7-AL-dyj" kind="presentation" id="dcE-Uy-dRD"/>
+                                    <segue destination="Sj7-AL-dyj" kind="popoverPresentation" popoverAnchorView="fsL-tR-8Og" id="dcE-Uy-dRD">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2xy-Gz-OqV">
@@ -409,7 +411,9 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="list.dash" catalog="system" title=""/>
                                 <connections>
-                                    <segue destination="4EA-pV-iQq" kind="presentation" id="UqY-yt-jD3"/>
+                                    <segue destination="4EA-pV-iQq" kind="popoverPresentation" popoverAnchorView="2xy-Gz-OqV" id="UqY-yt-jD3">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
                                 </connections>
                             </button>
                         </subviews>
@@ -659,7 +663,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o8h-2R-eSb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-546" y="-558"/>
+            <point key="canvasLocation" x="-475" y="-558"/>
         </scene>
     </scenes>
     <resources>
