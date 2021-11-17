@@ -82,7 +82,8 @@ class MMViewControllerCities: UIViewController {
                 self.tableView.reloadData()
             }
             else {
-                self.displayAlert(title: "Error", message: error?.localizedDescription ?? "\(cityname) do not  exist")
+                
+                self.displayAlert(title: "Error", message: "\(cityname) do not  exist")
                 print("NOT WORKIGN")
             }
         })

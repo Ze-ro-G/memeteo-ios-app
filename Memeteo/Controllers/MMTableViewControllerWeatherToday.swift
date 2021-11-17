@@ -275,7 +275,7 @@ class MMTableViewControllerWeatherToday: UITableViewController {
                     self.setWeather(weather: weather)
                 }
                 else{
-                    self.displayAlert(title: "Error", message: error?.localizedDescription ?? "Cant load weather for \(cCity.name)")
+                    self.displayAlert(title: "Error", message:"Cant load weather for \(cCity.name)")
                 }
             })
             
@@ -284,7 +284,7 @@ class MMTableViewControllerWeatherToday: UITableViewController {
                     self.setForecast(forecast: forecast)
                 }
                 else{
-                    self.displayAlert(title: "Error", message: error?.localizedDescription ?? "Cant load forecasts for \(cCity.name)")
+                    self.displayAlert(title: "Error", message: "Cant load forecasts for \(cCity.name)")
                 }
             })
         }
